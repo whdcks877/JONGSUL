@@ -36,12 +36,12 @@ class _AlertCardState extends State<AlertCard> {
       case "Safety":
         return Card(
           color: Colors.green,
-          child: Text("양호", style: TextStyle(fontSize: 50), textAlign: TextAlign.center,)
+          child: Text("SAFE", style: TextStyle(fontSize: 50), textAlign: TextAlign.center,)
         );
       case "Danger":
         return Card(
           color: Colors.red,
-          child: Text("※ 위험 감지 ※", style: TextStyle(fontSize: 40), textAlign: TextAlign.center,)
+          child: Text("※ WARNING ※", style: TextStyle(fontSize: 40), textAlign: TextAlign.center,)
         );
       default:
         return Card(

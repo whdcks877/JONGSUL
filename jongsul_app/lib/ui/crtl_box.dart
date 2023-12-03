@@ -57,9 +57,7 @@ class _CtrlBoxState extends State<CtrlBox> {
         );
       }
       return Scaffold(
-        body: Expanded(
-          child: page,
-        ),
+        body: page,
       );
     });
   }

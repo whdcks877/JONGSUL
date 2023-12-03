@@ -45,7 +45,7 @@ class MyHomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         leading: Setting(),
-        title: Text("능동형 흉기난동범죄 예방시스템"),
+        title: Text("Active Violation Dectect Syetem"),
         centerTitle: true,
         actions: [
           ConnectButton(),
